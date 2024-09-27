@@ -1,0 +1,7 @@
+{
+    "testuser123@gmail.com": {
+        "userid": "testuser",
+        "password": "1234",
+        "access_level": "free"
+    }
+}
