@@ -2,8 +2,7 @@
 TextExtractify is a cutting-edge application designed to extract text from images and PDFs using powerful OCR technologies. With Azure OCR and EasyOCR at its core, TextExtractify offers a streamlined experience for users across different roles—whether you’re a free user or a premium subscriber looking for advanced features like PDF conversion and text extraction to .docx.
 
 ## Demo 🎥
-[Include a link to a demo video or GIF showcasing the app in action]
-
+https://github.com/user-attachments/assets/b3432af0-8f2e-43b5-814d-fda2723a8f46
 ## 🚀 Features
 ### 🔑 Free User Features:
 * Single Image Upload: Upload an image to extract text using Azure OCR or EasyOCR.
@@ -26,7 +25,27 @@ TextExtractify is a cutting-edge application designed to extract text from image
 TextExtractify has a modern and responsive UI designed for a seamless user experience. The interface adapts to different devices and ensures smooth navigation for both free and premium users.
 
 ### Screenshots
-[Add images showcasing different parts of your app]
+
+**1. Login Page:**
+
+   ![Login Page](https://github.com/user-attachments/assets/b7b2a81b-4c92-4cb2-b071-823eb4bb9172)
+
+**2. Signup Page:**
+  
+  ![SignUp Page](https://github.com/user-attachments/assets/44fc4f2d-688c-47bf-b1d6-538a82de852e)
+
+**3. Home Page:**
+
+  ![Home Page](https://github.com/user-attachments/assets/4279c830-7423-4570-834c-a180115ee1fa)
+
+**4. Free User Features**
+
+![Free Features](https://github.com/user-attachments/assets/65f7f004-3387-44d0-ab51-6103729f754f)
+
+**5. Premium User PDF View:**
+  
+  ![Premium PDF](https://github.com/user-attachments/assets/24963b86-8d75-40fa-aed8-f1f7e338c942)
+
 
 ## 🛠️ Tech Stack
 ### Backend:
