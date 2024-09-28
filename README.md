@@ -89,7 +89,7 @@ TextExtractify has a modern and responsive UI designed for a seamless user exper
 * AI-powered Translations: Expanding language detection and translation capabilities.
 * Improved Performance: Reducing processing time for large PDFs and image batches.
 ## 📝 License
-* This project is licensed under the MIT License - see the LICENSE file for details.
+* This project is licensed under the MIT License - see the [LICENSE](https://github.com/Anant2003jain/TextExtractify/blob/main/LICENSE) file for details.
 
 ## 🤝 Contributing
 We welcome contributions from the community! To contribute:
