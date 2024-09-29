@@ -3,5 +3,10 @@
         "userid": "testuser",
         "password": "1234",
         "access_level": "free"
+    },
+    "mygmail@gmail.com": {
+        "userid": "@anant_jain",
+        "password": "1234",
+        "access_level": "premium"
     }
 }
