@@ -76,4 +76,3 @@ def save_text_as_docx(extracted_text, file_name='extracted_docx_files//textextra
             doc.add_paragraph(line)
         
         doc.save(file_name)
-
