@@ -139,7 +139,8 @@ def main():
                     
                         if extracted_text:
                             st.write("#### Extracted Text from PDF:")
-                            st.text_area("Extracted Text:", extracted_text, height=300)
+                            st.text_area("Extracted Text", value=extracted_text, height=300, label_visibility="collapsed")
+                            #st.text_area("Extracted Text:", extracted_text, height=300)
 
                             if entity_name != 'None':
                                 st.write("Extracting specific entity...")
