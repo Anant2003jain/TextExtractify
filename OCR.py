@@ -1,5 +1,6 @@
 import streamlit as st
 import time
+import os
 import json
 from io import BytesIO
 from PIL import Image
@@ -53,8 +54,14 @@ def extract_text_from_image(image_data):
 #Function to extract text using EasyOCR"""
 def extract_text_from_image_easyocr(image_data):
     try:
-        # Initialize EasyOCR reader
-        reader = easyocr.Reader(['en'])
+        model_storage_directory = 'model/'
+
+        # Check if the directory exists, if not, create it
+        if not os.path.exists(model_storage_directory):
+            os.makedirs(model_storage_directory)
+
+        # Initialize the reader
+        reader = easyocr.Reader(['en'], model_storage_directory=model_storage_directory)
 
         # Show progress bar for EasyOCR
         progress = st.progress(0)

@@ -1,12 +1,12 @@
 {
     "testuser123@gmail.com": {
-        "userid": "testuser",
-        "password": "1234",
-        "access_level": "free"
-    },
-    "mygmail@gmail.com": {
-        "userid": "@anant_jain",
+        "userid": "@test_user",
         "password": "1234",
         "access_level": "premium"
+    },
+    "freeuser@gmail.com": {
+        "userid": "@free_user",
+        "password": "1234",
+        "access_level": "free"
     }
 }
