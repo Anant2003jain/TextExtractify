@@ -76,7 +76,7 @@ def main():
         st.subheader("Extract text from Images or PDFs with ease")
 
     with col2:
-        st.image(logo_image, use_column_width=True)
+        st.image(logo_image, use_container_width=True)
 
 
     uploaded_file = None
@@ -163,7 +163,7 @@ def main():
 
             elif uploaded_file.type in ["image/jpeg", "image/png", "image/jpg"]:
                 st.text("Uploaded Image")
-                st.image(uploaded_file, use_column_width=True)
+                st.image(uploaded_file, use_container_width=True)
                 if st.button("Extract Text"):
                     with st.spinner("Extracting text..."):
                         if st.session_state.user_plan == 'premium' and model_choice=="Azure OCR (Premium)":
